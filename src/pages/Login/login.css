@@ -1,0 +1,78 @@
+#container {
+    text-align: center;
+}
+#form {
+    padding: 100px 60px 100px 60px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: left;
+    width: 400px;
+    background: rgb(21, 175, 236);
+    box-shadow: 5px 7px #888888;
+}
+#form label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+/* [type="text"] */
+#form input {
+    margin: 10px 0;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#submit {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 25px;
+    /* background: #888888; */
+}
+
+#message {
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid #888888;
+    border-right: none;
+    border-left: none;
+    padding: 10px;
+}
+
+#message-header {
+    display: inline-flex;
+    margin-bottom: -25px;
+}
+
+#message .from {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+#message #status {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 400px;
+}
+
+#message #status[class="unread"] {
+    background:#ff6347;
+    padding: 10px 30px;
+}
+
+#message #status[class="read"] {
+    background:green;
+    padding: 10px 30px;
+}
+
+#message #subject, #content {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin-right: 100px;
+}
